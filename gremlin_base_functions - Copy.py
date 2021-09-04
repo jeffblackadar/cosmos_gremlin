@@ -306,11 +306,7 @@ def execute_drop_operations(client):
 
 
 try:
-    client = client.Client('wss://graph-william-white.gremlin.cosmosdb.azure.com:443/', 'g',
-                           username="/dbs/graphdb/colls/Persons",
-                           password="SsMUNfKi9e2QLXaug4Vu1Iyfrb0rcWYHWwxbZiYr615LA1XlpiLwYZW9wC9HgpzVduPR6h42bZgZCqDnKvhKgg==",
-                           message_serializer=serializer.GraphSONSerializersV2d0()
-                           )
+
 
     print("**** Welcome to Azure Cosmos DB + Gremlin on Python!")
 
